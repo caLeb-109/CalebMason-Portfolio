@@ -50,12 +50,12 @@ function App() {
     },
     {
       id: 4,
-      title: "Ethereal Soundscapes",
+      title: "",
       category: "UI Mockup/Designs",
       description:
-        "Atmospheric album cover design for an ambient music artist, capturing the ethereal and immersive nature of the soundscapes.",
+        "",
       image:
-        "https://readdy.ai/api/search-image?query=Professional%20album%20cover%20design%20for%20ambient%20music%20with%20ethereal%20abstract%20elements%2C%20subtle%20color%20gradients%20in%20blue%20and%20purple%2C%20minimalist%20typography%2C%20showing%20front%20and%20back%20cover%20layouts%2C%20isolated%20on%20soft%20gradient%20background%2C%20high-quality%20graphic%20design%20portfolio&width=600&height=400&seq=4&orientation=landscape",
+        "",
     },
     {
       id: 5,
@@ -76,12 +76,12 @@ function App() {
     },
     {
       id: 7,
-      title: "Organic Harvest Market",
+      title: "",
       category: "UI Mockup/Designs",
       description:
-        "Farm-to-table grocery brand identity featuring hand-drawn elements and an earthy color palette that reflects the brand's organic values.",
+        "",
       image:
-        "https://readdy.ai/api/search-image?query=Professional%20brand%20identity%20design%20for%20organic%20market%20showing%20rustic%20logo%20variations%2C%20earthy%20color%20palette%20swatches%2C%20hand-drawn%20typography%20samples%2C%20packaging%20designs%2C%20shopping%20bags%2C%20and%20signage%20mockups%2C%20arranged%20in%20organized%20presentation%2C%20isolated%20on%20soft%20gradient%20background%2C%20high-quality%20branding%20portfolio&width=600&height=400&seq=7&orientation=landscape",
+        "",
     },
     {
       id: 8,
@@ -89,8 +89,8 @@ function App() {
       category: "UI Mockup/Designs",
       description:
         "Bold and dynamic poster design for an international film festival, featuring innovative typography and visual storytelling.",
-      image:
-        "https://readdy.ai/api/search-image?query=Professional%20film%20festival%20poster%20design%20with%20dynamic%20typography%2C%20cinematic%20imagery%2C%20bold%20color%20contrasts%2C%20showing%20main%20poster%20and%20variations%20for%20different%20events%2C%20isolated%20on%20soft%20gradient%20background%2C%20high-quality%20graphic%20design%20portfolio%20presentation&width=600&height=400&seq=8&orientation=landscape",
+      video:
+        "./CIRCLE design CapCut Video_20250721_edit.mp4",
     },
   ];
   const filteredProjects = projects.filter((project) => {
@@ -337,7 +337,7 @@ function App() {
             </div>
             <div className="bg-slate-100/10 rounded-3xl shadow-md overflow-hidden">
               <div className="md:flex">
-                <div className="md:w-1/3 relative h-64 md:h-auto overflow-hidden">
+                <div className="md:w-1/3 relative h-64 md:h-auto overflow-hidden object-cover object-top transition-transform duration-500 ease-in-out group-hover:scale-110">
                   <img
                     src="/about.jpg"
                     alt="Designer portrait"
