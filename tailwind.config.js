@@ -2,6 +2,10 @@ module.export = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        heading: ['Raleway', 'sans-serif'],
+      },
       animation: {
         "fade-in": "fadeIn 1s ease-out",
         "fade-in-up": "fadeInUp 1s ease-out",
